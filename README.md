@@ -1,1 +1,41 @@
-# Kumpulan EDA dari berbagai Datasheet 
+# Exploratory Data Analysis (EDA) 📊
+
+This repository contains exploratory data analysis (EDA) projects aimed at understanding datasets through visualization, summary statistics, and data preprocessing.  
+EDA helps uncover hidden patterns, detect anomalies, test assumptions, and prepare data for machine learning.
+
+---
+
+## 📂 Project Structure
+
+- **Airlines Flight Data/**  
+  Dataset and analysis related to airline ticket pricing and flight schedules.  
+  Includes dataset description, preprocessing, and visualization of features such as airlines, routes, stops, and ticket prices.
+
+- *(More datasets/projects can be added in the future)*
+
+---
+
+## 🚀 Objectives of EDA
+- Understand the dataset structure and features  
+- Clean and preprocess raw data  
+- Handle missing values and outliers  
+- Generate summary statistics  
+- Create meaningful visualizations  
+- Provide insights for further modeling  
+
+---
+
+## 🛠️ Tools & Libraries
+- **Python 3.10.11**  
+- **Pandas** → Data manipulation  
+- **NumPy** → Numerical operations  
+- **Matplotlib** → Basic visualization  
+- **Seaborn** → Advanced and aesthetic visualization  
+- **Jupyter Notebook** → Interactive analysis  
+
+---
+
+## 📌 Notes
+- Each dataset/project has its own folder with a dedicated README.  
+- Visualizations are created to make insights more interpretable.  
+- Suitable as a learning resource for beginners in Data Science.  

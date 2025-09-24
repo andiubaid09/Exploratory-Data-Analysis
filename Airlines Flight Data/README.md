@@ -65,6 +65,13 @@ The cleaned dataset includes the following features:
 - **Most flight with arrival times are at Night**
 - **The flight with the most destination cities is Mumbai**
 - **The flight with the most source cities is Delhi**
+- **Vistara airlines is the airline with the highest average economy and business class ticket prices**
+- **Based on departure time the highest ticket prices are found at night**
+- **Based on arrival time the highest ticket prices are found at evening**
+- **Based on source city the highest average ticket price are found in Chennai City**
+- **Based on destination city the highest average ticket price are found in Kolkata City**
+- **The highest average ticket price when purchasing was found 2 days before departure at a price 30211** 
+
 
 ---
 

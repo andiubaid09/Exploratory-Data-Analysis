@@ -58,9 +58,9 @@ The cleaned dataset includes the following features:
 
 ## 📊 Insight
 
-- **Most Cheapest tickets price is Airlines from Chennai to Hyderabad**      = $   1105.00000 
-- **Most expensive tickets price is Vistara Airlines Kolkata to Delhi**      = $ 123071.00000
-- **Average ticket price**                                                   = $ 20889.660523
+- **Most Cheapest tickets price is Airlines from Chennai to Hyderabad**      =    1105.00 
+- **Most expensive tickets price is Vistara Airlines Kolkata to Delhi**      =  123071.00
+- **Average ticket price**                                                   =   20889.66
 - **
 
 

@@ -58,7 +58,8 @@ The cleaned dataset includes the following features:
 
 ## 📊 Insight
 
-- **Cheapest tickets** = 1105.00000 
+- **Most Cheapest tickets price** = $1105.00000 
+- **Most expensive tickets price**= $123071.000000
 
 
 ---

@@ -56,6 +56,13 @@ The cleaned dataset includes the following features:
 
 ---
 
+## 📊 Insight
+
+- **Cheapest tickets** = 1105.00000 
+
+
+---
+
 ## 🚀 Usage
 
 - Exploratory Data Analysis (EDA)  

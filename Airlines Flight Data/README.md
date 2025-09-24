@@ -61,8 +61,10 @@ The cleaned dataset includes the following features:
 - **Most Cheapest tickets price is Airlines from Chennai to Hyderabad**      =    1105.00 
 - **Most expensive tickets price is Vistara Airlines Kolkata to Delhi**      =  123071.00
 - **Average ticket price**                                                   =   20889.66
-- **
-
+- **Most flights with departure times are at Morning**
+- **Most flight with arrival times are at Night**
+- **The flight with the most destination cities is Mumbai**
+- **The flight with the most source cities is Delhi**
 
 ---
 

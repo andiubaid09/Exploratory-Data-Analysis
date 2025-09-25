@@ -30,7 +30,7 @@ The dataset includes features such as:
 - **Visualizations**  
   - Histograms and boxplots of traffic features  
   - Pie chart of label distribution  
-  - Bar plots for port usage by label  
+  - Bar plots for port_no usage by label  
 
 ---
 
@@ -52,10 +52,6 @@ The dataset includes features such as:
 
 ## 🚀 Next Steps
 - Feature engineering for ML model training.  
-- Build classification models to detect DDoS attacks.  
-- Deploy lightweight detection model to IoT devices (e.g., Raspberry Pi, ESP32).  
+- Build classification models to detect DDoS attacks.   
 
 ---
-
-## 📧 Contact
-For questions or collaboration, feel free to reach out.  

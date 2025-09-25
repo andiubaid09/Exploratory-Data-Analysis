@@ -25,7 +25,7 @@ The dataset includes features such as:
   - Distribution of bandwidth usage  
   - Median, min, max, outlier detection  
 - **Traffic Behavior**  
-  - Comparison of normal vs attack in `pktrate`, `byteperflow`, `pktperflow`, `Protocol`,   
+  - Comparison of normal vs attack in `pktrate`, `byteperflow`, `pktperflow`, `Protocol`, `port_no`, `dur`,`src`  
   - Visualization of attack sources (IP-based)  
 - **Visualizations**  
   - Histograms and boxplots of traffic features  

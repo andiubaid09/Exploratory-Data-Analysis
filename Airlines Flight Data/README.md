@@ -53,22 +53,24 @@ Dataseet ini berisi beberapa fitur sebagai berikut:
     *Type:* Target variable (continuous)
 
 ---
-## V
-## 📊 Insight
+## 📊 Visualisasi
 
-- **Most Cheapest tickets price is Airlines from Chennai to Hyderabad**      =    1105.00 
-- **Most expensive tickets price is Vistara Airlines Kolkata to Delhi**      =  123071.00
-- **Average ticket price**                                                   =   20889.66
-- **Most flights with departure times are at Morning**
-- **Most flight with arrival times are at Night**
-- **The flight with the most destination cities is Mumbai**
-- **The flight with the most source cities is Delhi**
-- **Vistara airlines is the airline with the highest average economy and business class ticket prices**
-- **Based on departure time the highest ticket prices are found at night**
-- **Based on arrival time the highest ticket prices are found at evening**
-- **Based on source city the highest average ticket price are found in Chennai City**
-- **Based on destination city the highest average ticket price are found in Kolkata City**
-- **The highest average ticket price when purchasing was found 2 days before departure at a price 30211** 
+
+## 💡 Insight
+
+- **Harga tiket termurah adalah dari Chennai ke Hyderabad dengan harga 1105.00** 
+- **Harga tiket termahal adalah maskapai Vistara Airlines dari Kolkata ke Delhi dengan harga 123071.00**
+- **Harga rata-rata tiket adalah 20889.66**
+- **Penerbangan terbanyak dengan waktu keberangkatan adalah di pagi hari**
+- **Penerbangan terbanyak tiba pada malam hari**
+- **Penerbangan dengan kota tujuan terbanyak adalah Mumbai**
+- **Penerbangan dengan kota asal terbanyak adalah Delhi**
+- **Maskapai penerbangan Vistara adalah maskapai penerbangan dengan harga tiket kelas ekonomi dan bisnis rata-rata tertinggi**
+- **Berdasarkan waktu keberangkatan, harga tiket tertinggi ditemukan pada malam hari**
+- **Berdasarkan waktu kedatangan, harga tiket tertinggi ditemukan pada malam hari**
+- **Berdasarkan kota asal, harga tiket rata-rata tertinggi ditemukan di Kota Chennai**
+- **Berdasarkan kota tujuan, harga tiket rata-rata tertinggi ditemukan di Kota Kolkata**
+- **Harga tiket rata-rata tertinggi saat pembelian ditemukan 2 hari sebelum keberangkatan dengan harga 30211** 
 
 
 ---
@@ -76,10 +78,10 @@ Dataseet ini berisi beberapa fitur sebagai berikut:
 ## 🚀 Usage
 
 - Exploratory Data Analysis (EDA)  
-- Data visualization of airlines, routes, and pricing    
+- Visualisasi data maskapai penerbangan, rute, dan harga   
 
 ---
 
 ## 📌 Notes
-- Dataset has been cleaned and preprocessed.  
-- Suitable for machine learning tasks such as regression and classification.  
+- Dataset telah dibersihkan dan diproses terlebih dahulu.  
+- Cocok untuk tugas pembelajaran mesin seperti regresi dan klasifikasi.  

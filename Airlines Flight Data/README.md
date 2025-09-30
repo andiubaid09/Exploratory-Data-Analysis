@@ -21,35 +21,35 @@ Dataseet ini berisi beberapa fitur sebagai berikut:
    *Type:* Categorical (6 unique cities)
 
 4. **Departure Time**  
-   Time period of departure, grouped into bins.  
+   Waktu keberangkatan dari kota asal.  
    *Type:* Categorical (6 unique labels)
 
 5. **Stops**  
-   Number of stops between source and destination.  
+   Jumlah pemberhentian (transit) antara kota asal ke kota tujuan.  
    *Type:* Categorical (3 values)
 
 6. **Arrival Time**  
-   Time period of arrival, grouped into bins.  
+   Waktu kedatangan di kota tujuan.  
    *Type:* Categorical (6 unique labels)
 
 7. **Destination City**  
-   City where the flight lands.  
+   Kota tujuan pesawat dimana akan melakukan landing.  
    *Type:* Categorical (6 unique cities)
 
 8. **Class**  
-   Seat class (Business or Economy).  
+   Kursi class (Business atau Economy).  
    *Type:* Categorical (2 values)
 
 9. **Duration**  
-   Total travel time between cities (in hours).  
+   Waktu perjalanan yang ditempuh dari kota asal ke kota tujuan.  
    *Type:* Continuous
 
 10. **Days Left**  
-    Days remaining until the trip (trip date − booking date).  
+    Pembelian tiket dari hari tersisa sebelum keberangkatan (trip date − booking date).  
     *Type:* Derived numerical feature
 
 11. **Price**  
-    Ticket price of the flight.  
+    Harga tiket dari penerbangan tertentu.  
     *Type:* Target variable (continuous)
 
 ---

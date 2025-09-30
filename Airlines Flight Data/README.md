@@ -57,9 +57,16 @@ Dataseet ini berisi beberapa fitur sebagai berikut:
 ### 1. Frekuensi Jumlah Penerbangan
 ![Frekuensi Penerbangan](Assets/Frekuensi%20Maskapai.png)<br>
 Grafik di atas menunjukkan frekuensi penerbangan dari berbagai maskapai yang ada di datasheet ini, dari grafik ini dapat diliat kalo jumlah penerbangan terbanyak adalah maskapai Vistara sedangkan jumlah penerbangan tersedikit adalah maskapai Spicejet.
-### 2. Frekuensi Jumlah waktu kedatangan dan waktu keberangkatan
+### 2. Frekuensi Jumlah Waktu Kedatangan dan Waktu Keberangkatan
 ![Frekuensi waktu kedatangan dan waktu keberangkatan](Assets/Frekuensi%20Departure%20dan%20Arrival%20Time.png)<br>
 Gambar di atas menunjukkan dua grafik yang berbeda, sebelah kiri menunjukkan frekuensi jumlah keberangkatan dari sebuah penerbangan dan sebelah kanan menunjukkan frekuensi jumlah kedatangan dari sebuah penerbangan. Pada grafik tersebut didapatkan bahwa pada waktu keberangkatan terbanyak terjadi di Pagi hari atau **MORNING** dan waktu keberangkatan tersedikit adalah pada waktu Tengah malam. Untuk grafik waktu kedatangan terbanyak terjadi di malam hari sedangkan waktu kedatangan tersedikit terjadi di tengah malam.
+### 3. Frekuensi Jumlah Kota Tujuan dan Kota Asal dari Sebuah Penerbangan
+![Frekuensi Jumlah Kota Tujuan dan Kota Asal dari Sebuah Penerbangan](Assets/Frekuensi%20Penerbangan%20dari%20kota%20asal%20dan%20tujuan.png)<br>
+Gambar di atas menunjukkan dua grafik yang berbeda, sebelah kiri menunjukkan penerbangan dengan kota tujuan terbanyak dan grafik sebelah kanan menunjukkan penerbangan dengan kota asal terbanyak dari sebuah penerbangan. Pada grafik tersebut didapatkan bahwa kota tujuan dengan jumlah penerbangan terbanyak adalah Mumbai dan kota tujuan dengan jumlah penerbangan tersedikit adalah Chennai. Untuk gambar grafik sebelah kanan, kota asal terbanyak dari berbagai penerbangan adalah Delhi sedangkan kota asal tersedikit dari penerbangan adalah Chennai.
+
+### 4. Grafik Harga Tiket Maskapai
+![Harga Tiket Maskapai](Assets/Rata-rata%20Harga%20tiket%20dari%20berbagai%20maskapai.png)<br>
+Gambar di atas menunjukkan harga tiket berbagai maskapai. Harga tiket termahal dari ekonomi dan bisnis adalah maskapai Vistara diikuti dengan maskapai Air_India, sedangkan harga tiket termurah adalah maskapai AirAsia.
 
 ## 💡 Insight
 

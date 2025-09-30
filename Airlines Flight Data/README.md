@@ -1,25 +1,23 @@
 # Airlines Flight Data ✈️
 
-This folder contains the dataset used for exploratory data analysis (EDA) of airline flights.  
-The dataset provides detailed information about airlines, routes, schedules, and ticket pricing.  
-It is suitable for analysis, visualization, and predictive modeling.
+Repository ini berisi kumpulan data yang digunakan untuk melakukan Exploratory Data Analyst (EDA) penerbangan maskapai. Kumpulan data ini menyediakan informasi detail tentang maskapai, rute, jadwal, dan harga tiket. Kumpulan data ini cocok untuk analisis, visualisasi, dan pemodelan prediktif.
 
 ---
 
 ## 📂 Dataset Features
 
-The cleaned dataset includes the following features:
+Dataseet ini berisi beberapa fitur sebagai berikut:
 
 1. **Airline**  
-   The airline company name.  
+   Nama perusahaan dari maskapai.  
    *Type:* Categorical (6 unique airlines)
 
 2. **Flight**  
-   Flight code of the plane.  
+   Nomor Penerbangan dari Maskapai.  
    *Type:* Categorical
 
 3. **Source City**  
-   City from which the flight departs.  
+   Kota dari tempat keberangkatan pesawat.  
    *Type:* Categorical (6 unique cities)
 
 4. **Departure Time**  
@@ -55,7 +53,7 @@ The cleaned dataset includes the following features:
     *Type:* Target variable (continuous)
 
 ---
-
+## V
 ## 📊 Insight
 
 - **Most Cheapest tickets price is Airlines from Chennai to Hyderabad**      =    1105.00 

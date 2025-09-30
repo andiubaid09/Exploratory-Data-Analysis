@@ -12,7 +12,9 @@ EDA helps uncover hidden patterns, detect anomalies, test assumptions, and prepa
   Includes dataset description, preprocessing, and visualization of features such as airlines, routes, stops, and ticket prices.
 
 - **Network Flow/**
-  Includes dataset description, preprocessing, and visualization of features related to IoT network traffic, such as source/destination IPs, ports, packet counts, byte counts, durations, protocols, and DDoS attack labels. Analysis covers traffic patterns, flow statistics, and attack detection using machine learning models like Random Forest, MLP, and PySpark pipelines.
+  Includes dataset description, preprocessing, and visualization of features related to IoT network traffic, such as source/destination
+  IPs, ports, packet counts, byte counts, durations, protocols, and DDoS attack labels. Analysis covers traffic patterns, flow statistics,
+  and attack detection using machine learning models like Random Forest, MLP, and PySpark pipelines.
 
 - *(More datasets/projects can be added in the future)*
 

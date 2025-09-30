@@ -87,13 +87,17 @@ Gambar di atas menunjukkan banyak subplot harga tiket berdasarkan waktu kedatang
   6. Pada waktu keberangkatan **LATE_NIGHT** ditemukan bahwa harga tiket tertinggi terjadi di waktu kedatangan **NIGHT** dan harga tiket terendah terjadi di waktu kedatangan **EARLY_MORNING** dan **LATE_NIGHT**
 
 ### 8. Line Plot Harga Tiket Berdasarkan Kota Tujuan, Subplot Terpisah dengan Untuk Setiap Periode Kota Asal
-[Line Plot Harga Tiket Berdasarkan Kota Tujuan Terhadap Kota Asal](Assets/Plot%20penerbangan%20dengan%20tujuan%20kota%20terhadap%20kita%20berdasarkan%20asal%20kota%20penerbangan.png)
+![Line Plot Harga Tiket Berdasarkan Kota Tujuan Terhadap Kota Asal](Assets/Plot%20penerbangan%20dengan%20tujuan%20kota%20terhadap%20kita%20berdasarkan%20asal%20kota%20penerbangan.png)<br>
   1. Pada penerbangan dengan kota asal Delhi ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Kolkata dan harga tiket terendah terjadi di kota dengan tujuan Hyderabad.
   2. Pada penerbangan dengan kota asal Mumbai ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Bangalore dan harga tiket terendah terjadi di kota dengan tujuan Delhi.
   3. Pada penerbangan dengan kota asal Bangalore ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Kolkata dan harga tiket terendah terjadi di kota dengan tujuan Delhi.
   4. Pada penerbangan dengan kota asal Kolkata ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Chennai dan harga tiket terendah terjadi di kota dengan tujuan Delhi.
   5. Pada penerbangan dengan kota asal Hyderabad ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Chennai dan harga tiket terendah terjadi di kota dengan tujuan Delhi.
   6. Pada penerbangan dengan kota asal Chennai ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Bangalore dan harga terendah terjadi di kota dengan tujuan Delhi.
+
+### 9. Harga Tiket Berdasarkan Hari Sebelum Keberangkatan
+![Harga Tiket Berdasarkan Hari Sebelum Keberangkatan](Assets/Harga%20tiket%20berdasarkan%20waktu%20pembelian%20sebelum%20keberangkatan.png)<br>
+Gambar di atas menunjukkan bahwa harga tiket berdasarkan hari sebelum keberangkatan, ditemukan harga tiket termahal akan ditemukan pada 2 hari sebelum keberangkatan.
 
 ## 💡 Insight
 

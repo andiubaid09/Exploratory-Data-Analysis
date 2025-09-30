@@ -86,8 +86,9 @@ Gambar di atas menunjukkan banyak subplot harga tiket berdasarkan waktu kedatang
   5. Pada waktu keberangkatan **NIGHT** ditemukan bahwa harga tiket tertinggi terjadi di waktu kedatangan **EVENING** dan harga tiket terendah terjadi di waktu kedatangan **LATE_NIGHT**
   6. Pada waktu keberangkatan **LATE_NIGHT** ditemukan bahwa harga tiket tertinggi terjadi di waktu kedatangan **NIGHT** dan harga tiket terendah terjadi di waktu kedatangan **EARLY_MORNING** dan **LATE_NIGHT**
 
-### 8. Line Plot Harga Tiket Berdasarkan Kota Tujuan, Subplot Terpisah dengan Untuk Setiap Periode Kota Asal
+### 8. Line Plot Harga Tiket Berdasarkan Kota Tujuan, Subplot Terpisah dengan Untuk Setiap Kota Asal
 ![Line Plot Harga Tiket Berdasarkan Kota Tujuan Terhadap Kota Asal](Assets/Plot%20penerbangan%20dengan%20tujuan%20kota%20terhadap%20kita%20berdasarkan%20asal%20kota%20penerbangan.png)<br>
+Gambar di atas menunjukkan harga tiket berdasarkan berbagai kota tujuan dengan subplot terpisah untuk setiap kota asal. Ada beberapa temuan sebagai berikut:
   1. Pada penerbangan dengan kota asal Delhi ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Kolkata dan harga tiket terendah terjadi di kota dengan tujuan Hyderabad.
   2. Pada penerbangan dengan kota asal Mumbai ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Bangalore dan harga tiket terendah terjadi di kota dengan tujuan Delhi.
   3. Pada penerbangan dengan kota asal Bangalore ditemukan bahwa harga tiket tertinggi terjadi di kota dengan tujuan Kolkata dan harga tiket terendah terjadi di kota dengan tujuan Delhi.

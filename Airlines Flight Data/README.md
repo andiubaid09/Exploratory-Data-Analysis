@@ -54,8 +54,12 @@ Dataseet ini berisi beberapa fitur sebagai berikut:
 
 ---
 ## 📊 Visualisasi
-### 1. 
-
+### 1. Frekuensi Jumlah Penerbangan
+![Frekuensi Penerbangan](Assets/Frekuensi%20Maskapai.png)<br>
+Grafik di atas menunjukkan frekuensi penerbangan dari berbagai maskapai yang ada di datasheet ini, dari grafik ini dapat diliat kalo jumlah penerbangan terbanyak adalah maskapai Vistara sedangkan jumlah penerbangan tersedikit adalah maskapai Spicejet.
+### 2. Frekuensi Jumlah waktu kedatangan dan waktu keberangkatan
+![Frekuensi waktu kedatangan dan waktu keberangkatan](Assets/Frekuensi%20Departure%20dan%20Arrival%20Time.png)<br>
+Gambar di atas menunjukkan dua grafik yang berbeda, sebelah kiri menunjukkan frekuensi jumlah keberangkatan dari sebuah penerbangan dan sebelah kanan menunjukkan frekuensi jumlah kedatangan dari sebuah penerbangan. Pada grafik tersebut didapatkan bahwa pada waktu keberangkatan terbanyak terjadi di Pagi hari atau **MORNING** dan waktu keberangkatan tersedikit adalah pada waktu Tengah malam. Untuk grafik waktu kedatangan terbanyak terjadi di malam hari sedangkan waktu kedatangan tersedikit terjadi di tengah malam.
 
 ## 💡 Insight
 

@@ -61,6 +61,9 @@ Gambar di atas menampilkan dua histogram yang berbeda, dimana grafik sebelah kir
 Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom Protocol. Pada kolom ini terdapat nama unik berjumlah 3 yaitu, ICMP, UDP, dan TCP. Ditemukan bahwa, distribusi jumlah data terbanyak pada Protocol ICMP dengan jumlah di sekitar 40000, kemudian Protocol UDP dengan jumlah di sekitar di antara 30000 - 35000. Yang paling sedikit adalah Protocol TCP dengan jumlah di sekitar rentang di antara 25000 - 30000.
 ### 9. Frekuensi Distribusi Jumlah Data Label
 ![Distribusi Data Label](Assets/Distribusi%20jumlah%20label%20attack%20dan%20normal.png)<br>
+Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom label. Pada kolom ini terdapat nomor unik berjumlah 2 yaitu 0 dan 1. Label 0 yang berarti Normal dan label 1 yang berarti Attack. Ditemukan bahwa, distribusi jumlah data terbanyak pada label 0 dengan jumlah di sekitar rentang 60000 lebih. Sedangkan distribusi jumlah data tersedikit pada label 1 dengan jumlah di sekitar rentang 40000. Ini dapat memberikan kesimpulan bahwa terjadi imbalanced data. Berikut adalah grafik pie chartnya: <br>
+![Distribusi Data Label Pie Chart](Assets/Pie%20chart%20Distribusi%20label.png)<br>
+### 10. 
 
 
 

@@ -77,10 +77,12 @@ Gambar di atas menampilkan grafik boxplot distribusi data pktperflow berdasrkan 
 ![Distribusi Data pktperflow Berdasarkan Label](Assets/Distribusi%20grafik%20pkteperflow%20terhadap%20label.png) 
 
 ## 💡 Key Insights
-- Negative values in flow metrics are strongly associated with **attack traffic**.  
-- **Normal traffic** shows relatively stable bandwidth usage.  
-- **Attack traffic** is more bursty, with higher packet rates and unusual outliers.  
-- Certain **source IP addresses** dominate the attack traffic.  
+- Nilai negatif dalam metrik aliran sangat terkait dengan **lalu ​​lintas serangan**.  
+- Lalu lintas normal menunjukkan penggunaan bandwidth yang relatif stabil.  
+- Lalu lintas serangan lebih cepat, dengan tingkat paket yang lebih tinggi dan outlier yang tidak biasa.  
+- **Alamat IP sumber** tertentu mendominasi lalu lintas serangan.  
+- Distribusi Data Label 0 dan 1 terjadi Imbalanced data.
+- Terdapat outlier di byteperflow, pktrate, pktperflow bernilai negatif yang sangat janggal.
 
 ---
 

@@ -52,9 +52,15 @@ Gambar di atas menampilkan grafik histogram distribusi data dari kolom dur(Durat
 Gambar di atas menampilkan grafik histogram distribusi data dari kolom dur(Duration) terhadap label 0 = Normal dan 1 = Attack. Warna biru mewakili label 0 dan warna orange mewakili label 1. Ditemukan bahwa Label 0 banyak terjadi di duration rentang 0-250 dan merupakan paling banyak dibanding label 1. Sedangkan label 1 terjadi pada duration dengan rentang 0-500 dan bisa dikatakan cukup banyak juga. Rentang di atas 500 label 1 cukup tersebar merata. Sedangkan label 0 hanya sampai di rentang di bawah 1250.
 ### 6. Frekuensi Distribusi Jumlah Data port_no
 ![Distribusi Data port_no](Assets/Frekuensi%20jumlah%20port_no.png)<br>
-Gambar di atas menampilkan grafik visualisasi disribusi data dari kolom port_no. Pada kolom ini terhadap nilai unik berjumlah 5 yaitu 1,2,3,4 dan 5. Ditemukan bahwa, distribusi jumlah data terbanyak pada port_no 2 dengan jumlah hampir 30000, lalu diikuti dengan port_no 1 dengan jumlah hampi 30000 juga. Sedangkan jumlah distribusi data paling sedikit adalah port_no 5 dengan jumlah di bawah 5000.
-### 7. Frekuensi Distribusi Jumlah Data Protocol
+Gambar di atas menampilkan grafik visualisasi disribusi data dari kolom port_no. Pada kolom ini terdapat nilai unik berjumlah 5 yaitu 1,2,3,4 dan 5. Ditemukan bahwa, distribusi jumlah data terbanyak pada port_no 2 dengan jumlah hampir 30000, lalu diikuti dengan port_no 1 dengan jumlah hampi 30000 juga. Sedangkan jumlah distribusi data paling sedikit adalah port_no 5 dengan jumlah di bawah 5000.
+### 7. Distribusi Data port_no Berdasarkan label
+![Distribusi Data port_no Berdasarkan label](Assets/Distribusi%20port_no%20terhadap%20label.png)<br>
+Gambar di atas menampilkan dua histogram yang berbeda, dimana grafik sebelah kiri merupakan distribusi data port_no terhadap label Normal dan sebelah kanan merupakan distribusi data port_no terhadap label Attack. Dimulai dari sebelah kanan, ditemukan bahwa Normal Traffic paling banyak ada pada port_no 1 sebanyak hampir 17500 diikuti dengan port_no 2 dengan perbedaan sangat tipis. Sedangkan Normal Traffic paling sedikit ada pada port_no 5 dengan jumlah di bawah 2500. Lalu, untuk grafik sebelah kanan, ditemukan bahwa Attack Traffic paling banyak dilakukan ada pada port_no 1 dengan jumlah di atas 10000 lalu diikuti port_no 2 dengan perbedaan sangat tipis. Sedangkan Attack Traffic paling sedikit ada pada port_no 0 di bawah rentang 2000.
+### 8. Frekuensi Distribusi Jumlah Data Protocol
 ![Distribusi Data Protocol](Assets/Frekuensi%20jumlah%20total%20Protocol.png)<br>
+Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom Protocol. Pada kolom ini terdapat nama unik berjumlah 3 yaitu, ICMP, UDP, dan TCP. Ditemukan bahwa, distribusi jumlah data terbanyak pada Protocol ICMP dengan jumlah di sekitar 40000, kemudian Protocol UDP dengan jumlah di sekitar di antara 30000 - 35000. Yang paling sedikit adalah Protocol TCP dengan jumlah di sekitar rentang di antara 25000 - 30000.
+### 9. Frekuensi Distribusi Jumlah Data Label
+![Distribusi Data Label](Assets/Distribusi%20jumlah%20label%20attack%20dan%20normal.png)<br>
 
 
 

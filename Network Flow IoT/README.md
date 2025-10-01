@@ -31,7 +31,11 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
   - Bar plots for port_no usage by label  
 
 ---
-## 📊 Visualisasi 
+## 💡 Visualisasi 
+ 1. Frekuensi Jumlah Kemunculan src 
+ ![Jumlah kemunculan src](Assets/Jumlah%20Frekuensi%20src%20request%20terhadap%20IP%20Sender.png)<br>
+ Gambar di atas menunjukkan visualisasi dari frekuensi jumlah kemunculan IP Sender Request pada kolom "src". Ditemukan bahwa, IP Sender Request terbanyak dilakukan dengan alamat IP 10.0.0.3 lalu diikuti dengan alamat IP 10.0.0.7. Sedangkan jumlah yang paling sedikit kemunculan IP Sender Request adalah dengan alamat IP 10.0.0.17.
+ 2. 
 ## 📊 Key Insights
 - Negative values in flow metrics are strongly associated with **attack traffic**.  
 - **Normal traffic** shows relatively stable bandwidth usage.  

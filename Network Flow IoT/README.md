@@ -34,7 +34,7 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
 
 ---
 
-## 💡 Visualisasi 
+## 📊Visualisasi 
 ### 1. Frekuensi Distribusi Data Jumlah Kemunculan src 
 ![Jumlah kemunculan src](Assets/Jumlah%20Frekuensi%20src%20request%20terhadap%20IP%20Sender.png)<br>
 Gambar di atas menunjukkan visualisasi dari frekuensi jumlah kemunculan IP Sender Request pada kolom "src". Ditemukan bahwa, IP Sender Request terbanyak dilakukan dengan alamat IP 10.0.0.3 lalu diikuti dengan alamat IP 10.0.0.7. Sedangkan jumlah yang paling sedikit kemunculan IP Sender Request adalah dengan alamat IP 10.0.0.17.
@@ -59,7 +59,7 @@ Gambar di atas menampilkan grafik visualisasi disribusi data dari kolom port_no.
 
 
 
-## 📊 Key Insights
+## 💡 Key Insights
 - Negative values in flow metrics are strongly associated with **attack traffic**.  
 - **Normal traffic** shows relatively stable bandwidth usage.  
 - **Attack traffic** is more bursty, with higher packet rates and unusual outliers.  

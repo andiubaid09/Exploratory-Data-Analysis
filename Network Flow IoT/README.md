@@ -63,9 +63,14 @@ Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom 
 ![Distribusi Data Label](Assets/Distribusi%20jumlah%20label%20attack%20dan%20normal.png)<br>
 Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom label. Pada kolom ini terdapat nomor unik berjumlah 2 yaitu 0 dan 1. Label 0 yang berarti Normal dan label 1 yang berarti Attack. Ditemukan bahwa, distribusi jumlah data terbanyak pada label 0 dengan jumlah di sekitar rentang 60000 lebih. Sedangkan distribusi jumlah data tersedikit pada label 1 dengan jumlah di sekitar rentang 40000. Ini dapat memberikan kesimpulan bahwa terjadi imbalanced data. Berikut adalah grafik pie chartnya: <br>
 ![Distribusi Data Label Pie Chart](Assets/Pie%20chart%20Distribusi%20label.png)<br>
-### 10. 
-
-
+### 10. Distribusi Data pktrate Berdasarkan Label
+![Distribusi Data pktrate Berdasarkan Label](Assets/Distribusi%20pktrate%20terhadap%20label.png)<br>
+Gambar di atas menampilkan grafik boxplot distribusi data pktrate berdasarkan label. Pada label 0, terdapat nilai anomali (outlier) berjumlah 1 dimana nilainya negatif yaitu di bawah -4000. Sedangkan untuk label 1 terdapat juga nilai anomali (outlier) berjumlah 14 dimana nilainya sama juga yaitu negatif. Nilainya dimulai dari di bawah -1000 sampai -4000. Hal ini janggal mengingat pktrate tidak bisa bernilai negatif. Berikut visualisasi lain dalam bentuk histogram: <br>
+![Histogram Distribusi Data pktrate Berdasarkan Label](Assets/Distribusi%20grafik%20pktrate%20terhadap%20label.png)
+### 11. Distribusi Data byteperflow Berdasarkan Label
+![Distribusi Data Byteperflow Berdasarkan Label](Assets/Distribusi%20byteperflow%20terhadap%20label.png)<br>
+Gambar di atas menampilkan grafik boxplot distribusi data byteperflow berdasarkan label. Pada label 0, terdapat nilai anomali (outlier) berjumlah 1 dimana nilainnya negatif di rentang nilai antar -1.2 - (-1.4). Sedangkan untuk label 1 terdapat nilai anomali (outlier) berjumlah 6 dimana nilainya juga negatif. Nilainya dimulai di rentang antar -0.8 - (- 1.5). Berikut tampilan visualisasi lai dalam bentuk histogram: <br>
+![Histogram Distribusi Data byteperflow](Assets/Distribusi%20grafik%20byteperflow%20terhadap%20label.png)<br>
 
 
 ## 💡 Key Insights

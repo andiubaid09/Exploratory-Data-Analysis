@@ -1,13 +1,12 @@
 # Exploratory Data Analysis (EDA) - Network Flow Dataset
 
 ## 📌 Overview
-This repository contains Exploratory Data Analysis (EDA) on a network flow dataset consisting of **normal traffic (label = 0)** and **attack traffic (label = 1)**.  
-The main goal of this analysis is to understand traffic behavior, identify anomalies, and explore patterns that differentiate normal and malicious flows.
+Repositori ini berisi Analisis Data Eksplorasi (EDA) pada kumpulan data aliran jaringan yang terdiri dari **lalu ​​lintas normal (label = 0)** dan **lalu ​​lintas serangan (label = 1)**. Tujuan utama analisis ini adalah untuk memahami perilaku lalu lintas, mengidentifikasi anomali, dan mengeksplorasi pola yang membedakan aliran normal dan berbahaya.
 
 ---
 
 ## 📂 Dataset
-The dataset includes features such as:
+Dataset ini mencakup fitur-fitur sebagai berikut:
 - **Bandwidth metrics**: `rx_kbps`, `tx_kbps`, `tot_kbps`
 - **Flow characteristics**: `pktrate`, `pktsperflow`, `bytesperflow`, `dur`
 - **Network attributes**: `src`, `dst`, `port_no`
@@ -19,8 +18,7 @@ The dataset includes features such as:
 
 ## 🔎 Analysis Performed
 - **Data Cleaning**  
-  - Handling missing values  
-  - Removing invalid / negative values (e.g., negative packet rate)  
+  - Menangani missing values    
 - **Descriptive Statistics**  
   - Distribution of bandwidth usage  
   - Median, min, max, outlier detection  
@@ -33,7 +31,7 @@ The dataset includes features such as:
   - Bar plots for port_no usage by label  
 
 ---
-
+## 📊 Visualisasi 
 ## 📊 Key Insights
 - Negative values in flow metrics are strongly associated with **attack traffic**.  
 - **Normal traffic** shows relatively stable bandwidth usage.  

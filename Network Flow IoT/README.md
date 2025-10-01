@@ -44,6 +44,10 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
  3. Frekuensi Jumlah Request Normal Berdasarkan src IP Request Sender
  ![Request Normal Berdasarkan src](Assets/Jumlah%20Normal%20Request%20terhadap%20IP%20Sender.png)<br>
  Gambar di atas menunjukkan visualisasi grafik dari frekuensi request normal yang berlabel 0 terhadap IP Sender Request. Ditemukan bahwa IP yang mengirim request normal terbanyak dilakukan oleh dengan alamat IP 10.0.0.7, lalu diikuti dengan alamat IP 10.0.0.2. Sedangkan request normal tersedikit melakukan request normal adalah dengan alamat IP 10.0.0.20.
+ 4. 
+
+
+
 ## 📊 Key Insights
 - Negative values in flow metrics are strongly associated with **attack traffic**.  
 - **Normal traffic** shows relatively stable bandwidth usage.  

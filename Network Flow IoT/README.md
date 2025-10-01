@@ -72,7 +72,7 @@ Gambar di atas menampilkan grafik boxplot distribusi data pktrate berdasarkan la
 Gambar di atas menampilkan grafik boxplot distribusi data byteperflow berdasarkan label. Pada label 0, terdapat nilai anomali (outlier) berjumlah 1 dimana nilainnya negatif di rentang nilai antar -1.2 - (-1.4).Sedangkan untuk label 1 terdapat nilai anomali (outlier) berjumlah 6 dimana nilainya juga negatif. Nilainya dimulai di rentang antar -0.8 - (- 1.5). Berikut tampilan visualisasi lain dalam bentuk histogram: <br>
 ![Histogram Distribusi Data byteperflow](Assets/Distribusi%20grafik%20byteperflow%20terhadap%20label.png)<br>
 ### 12. Distribusi Data pktperflow Berdasarkan Label
-![Distribusi Data pktperflow Berdasarkan Label](Assets/Distribusi%20pkteperflow%20terhadap%20label.png)
+![Distribusi Data pktperflow Berdasarkan Label](Assets/Distribusi%20pkteperflow%20terhadap%20label.png)<br>
 Gambar di atas menampilkan grafik boxplot distribusi data pktperflow berdasrkan label. Pada label 0 terdapat nilai anomali (outlier) berjumlah 1 dimana nilainya negatif di rentang nilai di bawah -120000. Sedangkan label 1 terdapat nilai anomali (outlier) berjumlah banyak sama nilainya juga negatif. Nilainya dimulai di rentang antar di bawah - 40000 hingga di -120000. Berikut tampilan visualisasi lain dalam bentuk histogram: <br>
 ![Distribusi Data pktperflow Berdasarkan Label](Assets/Distribusi%20grafik%20pkteperflow%20terhadap%20label.png) 
 

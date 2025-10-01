@@ -35,9 +35,9 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
 ---
 
 ## 💡 Visualisasi 
- ### 1. Frekuensi Jumlah Kemunculan src 
- ![Jumlah kemunculan src](Assets/Jumlah%20Frekuensi%20src%20request%20terhadap%20IP%20Sender.png)<br>
- Gambar di atas menunjukkan visualisasi dari frekuensi jumlah kemunculan IP Sender Request pada kolom "src". Ditemukan bahwa, IP Sender Request terbanyak dilakukan dengan alamat IP 10.0.0.3 lalu diikuti dengan alamat IP 10.0.0.7. Sedangkan jumlah yang paling sedikit kemunculan IP Sender Request adalah dengan alamat IP 10.0.0.17.
+### 1. Frekuensi Jumlah Kemunculan src 
+![Jumlah kemunculan src](Assets/Jumlah%20Frekuensi%20src%20request%20terhadap%20IP%20Sender.png)<br>
+Gambar di atas menunjukkan visualisasi dari frekuensi jumlah kemunculan IP Sender Request pada kolom "src". Ditemukan bahwa, IP Sender Request terbanyak dilakukan dengan alamat IP 10.0.0.3 lalu diikuti dengan alamat IP 10.0.0.7. Sedangkan jumlah yang paling sedikit kemunculan IP Sender Request adalah dengan alamat IP 10.0.0.17.
  ### 2. Frekuensi Serangan Berdasarkan src IP Request Sender
  ![Serangan Berdasarkan src](Assets/Jumlah%20serangan%20terhadap%20IP%20Sender%20Request.png)<br>
  Gambar di atas menunjukkan visualisasi dari frekuensi serangan berlabel 1 terhadap IP Sender Request. Ditemukan bahwa, IP yang mengirim serangan terbanyak adalah 10.0.0.10, lalu diikuti dengan alamat IP 10.0.0.3. Sedangkan IP yang mengirim serangan tersedikit adalah 10.0.0.17. 

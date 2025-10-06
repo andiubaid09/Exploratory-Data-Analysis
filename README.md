@@ -28,15 +28,15 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 
 ## 🛠️ Tools & Libraries
 - **Python 3.10.11**  
-- **Pandas** → Data manipulation  
-- **NumPy** → Numerical operations  
-- **Matplotlib** → Basic visualization  
-- **Seaborn** → Advanced and aesthetic visualization  
-- **Jupyter Notebook** → Interactive analysis  
+- **Pandas** → Manipulasi Data  
+- **NumPy** → Operasi Numerik  
+- **Matplotlib** → Visualisasi dasar  
+- **Seaborn** → Visualisasi yang canggih dan estetis  
+- **Jupyter Notebook** → Analisis interaktif  
 
 ---
 
 ## 📌 Notes
-- Each dataset/project has its own folder with a dedicated README.  
-- Visualizations are created to make insights more interpretable.  
-- Suitable as a learning resource for beginners in Data Science.  
+- Setiap kumpulan data/proyek memiliki folder tersendiri dengan README khusus.  
+- Visualisasi dibuat untuk membuat wawasan lebih mudah diinterpretasikan.  
+- Cocok sebagai sumber belajar bagi pemula dalam Ilmu Data.  

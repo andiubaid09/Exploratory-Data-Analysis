@@ -1,7 +1,6 @@
 # Exploratory Data Analysis (EDA) 📊
 
-This repository contains exploratory data analysis (EDA) projects aimed at understanding datasets through visualization, summary statistics, and data preprocessing.  
-EDA helps uncover hidden patterns, detect anomalies, test assumptions, and prepare data for machine learning.
+Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertujuan untuk memahami kumpulan data melalui visualisasi, statistik ringkasan, dan prapemrosesan data. EDA membantu mengungkap pola tersembunyi, mendeteksi anomali, menguji asumsi, dan mempersiapkan data untuk pembelajaran mesin.
 
 ---
 

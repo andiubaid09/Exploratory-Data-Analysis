@@ -17,12 +17,12 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 ---
 
 ## 🚀 Objectives of EDA
-- Understand the dataset structure and features  
-- Clean and preprocess raw data  
-- Handle missing values and outliers  
-- Generate summary statistics  
-- Create meaningful visualizations  
-- Provide insights for further modeling  
+- Memahami struktur dan fitur dataset  
+- Bersihkan dan proses awal data mentah 
+- Menangani nilai yang hilang dan melacak outlier 
+- Hasilkan statistik ringkasan  
+- Buat visualisasi yang bermakna  
+- Memberikan wawasan untuk pemodelan lebih lanjut  
 
 ---
 

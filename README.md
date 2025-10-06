@@ -7,13 +7,10 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 ## 📂 Project Structure
 
 - **Airlines Flight Data/**  
-  Dataset and analysis related to airline ticket pricing and flight schedules.  
-  Includes dataset description, preprocessing, and visualization of features such as airlines, routes, stops, and ticket prices.
+  Dataset dan analisis terkait harga tiket pesawat dan jadwal penerbangan.Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur seperti maskapai, rute, pemberhentian (transit), dan harga tiket.
 
 - **Network Flow/**
-  Includes dataset description, preprocessing, and visualization of features related to IoT network traffic, such as source/destination
-  IPs, ports, packet counts, byte counts, durations, protocols, and DDoS attack labels. Analysis covers traffic patterns, flow statistics,
-  and attack detection using machine learning models like Random Forest, MLP, and PySpark pipelines.
+  Meliputi deskripsi set data, prapemrosesan, dan visualisasi fitur-fitur yang terkait dengan lalu lintas jaringan IoT, seperti IP sumber/tujuan, port, jumlah paket, jumlah byte, durasi, protokol, dan label serangan DDoS. Analisis mencakup pola lalu lintas, statistik aliran, distribusi data dan deteksi serangan menggunakan berbagai model pembelajaran mesin seperti Random Forest, MLP, dan PySpark.
 
 - *(More datasets/projects can be added in the future)*
 

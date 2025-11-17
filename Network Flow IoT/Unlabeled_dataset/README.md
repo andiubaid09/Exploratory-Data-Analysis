@@ -19,7 +19,11 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
   - Distribusi Penggunaan Bandwidth  
   - Median, min, max, deteksi outlier  
 - **Visualisasi**  
-  - plot bar frekuensi kemunculan Protocol dengan jumlah TCP terbanyak yaitu 5 juta TCP  
+  - plot bar frekuensi kemunculan Protocol dengan jumlah TCP terbanyak yaitu 5 juta TCP 
+- **Catatan**
+  - Datasheet merupakan pemotongan dari data mentah yang memiliki 15 juta rows network flow IoT, dimana 104 ribu memiliki label dan 5 juta kami ambil untuk keperluan pengaplikasian unsupervised learning.
+  - Datasheet memiliki karakteristik yang berbeda dengan labeled_dataset.csv, dimana memiliki port_no yang berjumlah ribuan. Tx_bytes, tx_kbps, dur_nsec bernilai nol. Kami mencurigai bahwa tidak ada aktivitas serangan DDoS pada datasheet, namun kami akan mencoba mendeteksi anomali traffic menggunakan model yang ada di unsupervised learning.
+  - Kami tidak dapat memvisualisasikan semuanya seperti yang kami lakukan di labeled_dataset.csv, namun, anda bisa membukannya dan melihat hal-hal yyang banyak dari beberapa features.
 
 ---
 

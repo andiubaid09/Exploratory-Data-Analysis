@@ -39,7 +39,6 @@ Gambar di atas menampilkan grafik visualisasi jumlah distribusi data dari kolom 
 ---
 
 ## 🚀 Next Steps
-- Feature engineering for ML model training.  
-- Build classification models to detect DDoS attacks.   
+- Build clustering model use K-Means.   
 
 ---

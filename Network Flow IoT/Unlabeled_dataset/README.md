@@ -1,7 +1,7 @@
 # Exploratory Data Analysis (EDA) - Network Flow Dataset
 
 ## 📌 Overview
-Repositori ini berisi Analisis Data Eksplorasi (EDA) pada kumpulan data aliran jaringan yang terdiri dari **lalu ​​lintas normal (label = 0)** dan **lalu ​​lintas serangan (label = 1)**. Tujuan utama analisis ini adalah untuk memahami perilaku lalu lintas, mengidentifikasi anomali, dan mengeksplorasi pola yang membedakan aliran normal dan berbahaya.
+Repositori ini berisi Analisis Data Eksplorasi (EDA) pada kumpulan data aliran jaringan yang tidak terdapat label atau label = NaN. Tujuan utama analisis ini adalah untuk memahami perilaku lalu lintas, dan mengeksplorasi datasheet agar dapat memutuskan teknik preprocessing yang akan digunakan saat membuat model unsupervised learning. Datasheet ini merupakan bagian dari datasheet yang memiliki labeled yang sebelumnya telah dilakukan EDA dengan jumlah rows + 5 juta rows.
 
 ---
 
@@ -10,9 +10,7 @@ Dataset ini mencakup fitur-fitur sebagai berikut:
 - **Bandwidth metrics**: `rx_kbps`, `tx_kbps`, `tot_kbps`
 - **Flow characteristics**: `pktrate`, `pktsperflow`, `bytesperflow`, `dur`
 - **Network attributes**: `src`, `dst`, `port_no`
-- **Label**:  
-  - `0` → Normal traffic  
-  - `1` → Attack traffic  
+- **Label**: NaN 
 
 ---
 

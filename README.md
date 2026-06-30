@@ -9,10 +9,10 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 - **Airlines Flight Data/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan penerbangan komersial, seperti maskapai, rute, waktu keberangkatan, jumlah pemberhentian, durasi penerbangan, dan harga tiket. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, serta identifikasi faktor-faktor yang memengaruhi variasi harga tiket.
 
-- **Network Flow/**
-  Meliputi deskripsi set data, prapemrosesan, dan visualisasi fitur-fitur yang terkait dengan lalu lintas jaringan IoT, seperti IP sumber/tujuan, port, jumlah paket, jumlah byte, durasi, protokol, dan label serangan DDoS. Analisis mencakup pola lalu lintas, statistik aliran, distribusi data dan deteksi serangan menggunakan berbagai model pembelajaran mesin seperti Random Forest, MLP, dan PySpark.
+- **Network Flow/**  
+  Meliputi deskripsi dataset, prapemrosesan dan visualisasi fitur-fitur yang berkaitan dengan lalu lintas jaringan IoT, seperti alamat IP sumber dan tujuan, port, jumlah paket, jumlah byte, durasi aliran, protokol, serta label serangan DDoS. Analisis mencakup eksplorasi pola lalu lintas jaringan, statistik aliran, distribusi data, hubungan antar fitur, serta pengembangan model deteksi serangan menggunakan berbagai algoritma pembelajaran mesin, termasuk Random Forest, Multi-Layer Perceptron, dan PySpark.
 
-- **Credit Card Fraud/**
+- **Credit Card Fraud/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan transaksi kartu kredit, seperti jumlah transaksi, waktu transaksi, kategori merchant, transaksi luar negeri, ketidaksesuaian lokasi, skor kepercayaan perangkat (*device_trust_score*), kecepatan transaksi dalam 24 jam (*transaction velocity*), usia pemegang kartu, dan label fraud. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, analisis fraud rate, serta identifikasi pola-pola transaksi yang berpotensi mengindikasikan aktivitas penipuan sebagai dasar untuk pengembangan model deteksi fraud.
 
 - *(More datasets/projects can be added in the future)*

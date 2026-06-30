@@ -12,6 +12,9 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 - **Network Flow/**
   Meliputi deskripsi set data, prapemrosesan, dan visualisasi fitur-fitur yang terkait dengan lalu lintas jaringan IoT, seperti IP sumber/tujuan, port, jumlah paket, jumlah byte, durasi, protokol, dan label serangan DDoS. Analisis mencakup pola lalu lintas, statistik aliran, distribusi data dan deteksi serangan menggunakan berbagai model pembelajaran mesin seperti Random Forest, MLP, dan PySpark.
 
+- **Credit Card Fraud/**
+  Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan transaksi kartu kredit, seperti jumlah transaksi, waktu transaksi, kategori merchant, transaksi luar negeri, ketidaksesuaian lokasi, skor kepercayaan perangkat (*device_trust_score*), kecepatan transaksi dalam 24 jam (*transaction velocity*), usia pemegang kartu, dan label fraud. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, analisis fraud rate, serta identifikasi pola-pola transaksi yang berpotensi mengindikasikan aktivitas penipuan sebagai dasar untuk pengembangan model deteksi fraud.
+
 - *(More datasets/projects can be added in the future)*
 
 ---
@@ -27,7 +30,7 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 ---
 
 ## 🛠️ Tools & Libraries
-- **Python 3.10.11**  
+- **Python**  
 - **Pandas** → Manipulasi Data  
 - **NumPy** → Operasi Numerik  
 - **Matplotlib** → Visualisasi dasar  
@@ -38,5 +41,4 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 
 ## 📌 Notes
 - Setiap kumpulan data/proyek memiliki folder tersendiri dengan README khusus.  
-- Visualisasi dibuat untuk membuat wawasan lebih mudah diinterpretasikan.  
-- Cocok sebagai sumber belajar bagi pemula dalam Ilmu Data.  
+- Visualisasi dibuat untuk membuat wawasan lebih mudah diinterpretasikan.    

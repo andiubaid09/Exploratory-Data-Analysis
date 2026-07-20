@@ -41,7 +41,7 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## 1. Fraud Distribution
 
-![Fraud Distribution](Assets/Distribusi Fraud.png)
+![Fraud Distribution](Assets/Distribusi%20Fraud.png)
 
 ### Insight
 
@@ -54,24 +54,25 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## 2. Numerical Feature Distribution
 
-![Numerical Distribution](images/numerical_distribution.png)
+![Numerical Distribution](Assets/Distribusi%20Kolom(Fitur)%20Numerik.png)
 
 ### Insight
 
-- Distribusi sebagian besar fitur numerik menunjukkan karakteristik **skewed distribution**.
-- Beberapa fitur memiliki rentang nilai yang cukup lebar.
+- Fitur numerik yang menunjukkan karakteristik **skewed distribution right-skewed** yakni amount.
+- Fitur amount mengindikasikan bahwa sebagian besar transaksi bernilai kecil dengan sedikit transaksi bernilai sangat besar.
 - Distribusi ini memberikan indikasi perlunya preprocessing sebelum modeling.
 
 ---
 
-## 3. Outlier Distribution
+## 3. Outlier Amount
 
-![Outlier](images/outlier_distribution.png)
+![Outlier](Assets/DIstribusi%20of%20Outlier%20semua%20fitur.png)
 
 ### Insight
 
-- Beberapa fitur memiliki outlier yang cukup banyak, terutama pada fitur **....**
-- Outlier perlu dianalisis lebih lanjut untuk menentukan apakah merupakan nilai valid atau anomali.
+- Fitur amount ini menunjukkan distribusi yang bersifat **right-skewed** dengan jumlah outlier yang cukup banyak pada nilai transaksi tinggi.
+- Mayoritas transaksi memiliki nominal relatif kecil, sedangkan hanya sebagian kecil transaksi bernilai sangat besar.
+- Outlier pada fitur ini tidak langsung dihapus karena dapat merepresentasikan transaksi bernilai tinggi yang berpotensi berkaitan dengan aktivitas fraud.
 
 ---
 
@@ -79,46 +80,48 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Amount vs Fraud
 
-![Amount](images/amount_vs_fraud.png)
+![Amount](Assets/Amount%20vs%20Fraud.png)
 
 ### Insight
 
-- Median transaksi fraud sebesar **....**
-- Median transaksi normal sebesar **....**
-- Transaksi fraud cenderung memiliki nilai transaksi yang **....**
+- Median transaksi fraud sebesar **160**
+- Median transaksi normal sebesar **170**
 
 ---
 
 ## Cardholder Age vs Fraud
 
-![Age](images/cardholder_age_vs_fraud.png)
+![Age](Assets/cardholder_age%20by%20fraud.png)
 
 ### Insight
 
-- Rentang usia transaksi fraud berada pada **....**
-- Perbedaan distribusi usia antara transaksi fraud dan normal menunjukkan bahwa **....**
+- Rentang usia transaksi fraud berada pada **30-60**
+- Tidak terdapat perbedaan rentang usia cardholder.
 
 ---
 
 ## Device Trust Score vs Fraud
 
-![Trust Score](images/device_trust_score_vs_fraud.png)
+![Trust Score](Assets/device_trust_score%20by%20fraud.png)
 
 ### Insight
 
-- Device Trust Score pada transaksi fraud cenderung **....**
-- Hal ini menunjukkan bahwa perangkat dengan tingkat kepercayaan rendah memiliki potensi risiko fraud yang lebih tinggi.
+- Device Trust Score pada transaksi fraud cenderung memiliki rentang**30-40** poin
+- Device Trust Score pada transaksi fraud bahkan memiliki nilai poin tinggi seperti pada angka 60-100.
+- Hal ini menunjukkan bahwa perangkat dengan tingkat kepercayaan rendah bahkan tinggi memiliki potensi risiko fraud yang lebih tinggi.
 
 ---
 
 ## Velocity Last 24 Hours vs Fraud
 
-![Velocity](images/velocity_last_24h_vs_fraud.png)
+![Velocity](Assets/velocity_last_24h%20by%20fraud.png)
 
 ### Insight
 
-- Fraud memiliki nilai transaction velocity sebesar **....**
-- Semakin tinggi jumlah transaksi dalam 24 jam terakhir, semakin besar kemungkinan transaksi bersifat fraud.
+- Transaksi fraud terjadi pada kartu yang memiliki aktivitas transaksi lebih banyak dalam 24 jam terakhir dibandingkan transaksi normal.
+- Sebagian besar transaksi fraud memiliki nilai velocity yang lebih tinggi daripada transaksi normal
+- Nilai velocity pada transaksi fraud lebih bervariasi.
+- Nilai velocity yang tinggi pada transaksi fraud bukan hanya disebabkan oleh beberapa transaksi ekstrem, tetapi merupakan pola yang muncul pada banyak transaksi fraud.
 
 ---
 
@@ -126,34 +129,33 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Foreign Transaction vs Fraud
 
-![Foreign](images/foreign_vs_fraud.png)
+![Foreign](Assets/Foreign_transaction%20vs%20Fraud.png)
 
 ### Insight
 
-- Fraud lebih banyak ditemukan pada transaksi **....**
-- Fraud Rate transaksi luar negeri sebesar **....%**
-- Fraud Rate transaksi domestik sebesar **....%**
+- Fraud lebih banyak ditemukan pada sebagian besar transaksi **luar negeri (foreign)**
+- Fraud Rate transaksi domestic (dalam negeri) cukup tinggi dibanding di luar negeri.
 
 ---
 
 ## Location Mismatch vs Fraud
 
-![Location](images/location_vs_fraud.png)
+![Location](Assets/Location_mismatch%20vs%20Fraud.png)
 
 ### Insight
 
-- Transaksi dengan Location Mismatch memiliki Fraud Rate sebesar **....%**
-- Hal ini menunjukkan bahwa ketidaksesuaian lokasi merupakan salah satu indikator penting dalam deteksi fraud.
+- Fraud lebih banyak ditemukan pada location mismatch dibanding yang no mismatch
+- Sebagian besar transaksi normal tidak location mismatch, hanya sebagian kecil yang mismatch
 
 ---
 
 ## Merchant Category vs Fraud
 
-![Merchant](images/merchant_vs_fraud.png)
+![Merchant](Assets/Merchant%20Category%20vs%20Fraud.png)
 
 ### Insight
 
-- Merchant dengan jumlah fraud terbanyak adalah **....**
+- Merchant dengan jumlah fraud terbanyak adalah **Grocery**
 - Namun jumlah transaksi tidak selalu menunjukkan tingkat risiko fraud.
 
 ---
@@ -162,29 +164,29 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Fraud Rate by Merchant Category
 
-![Merchant Fraud Rate](images/fraud_rate_merchant.png)
+![Merchant Fraud Rate](Assets/Fraud%20Rate%20by%20Merchant%20Category.png)
 
 ### Insight
 
-- Merchant dengan Fraud Rate tertinggi adalah **....**
-- Merchant dengan Fraud Rate terendah adalah **....**
+- Merchant dengan Fraud Rate tertinggi adalah **Grocery**
+- Merchant dengan Fraud Rate terendah adalah **Clothing**
 
 ---
 
 ## Fraud Rate by Foreign Transaction
 
-![Foreign Rate](images/fraud_rate_foreign.png)
+![Foreign Rate](Assets/Fraud%20Rate%20by%20Foreign%20Transaction.png)
 
 ### Insight
 
-- Fraud Rate transaksi luar negeri mencapai **....%**
-- Fraud Rate transaksi domestik sebesar **....%**
+- Fraud Rate transaksi luar negeri mencapai **90%**
+- Fraud Rate transaksi domestik sebesar **10%**
 
 ---
 
 ## Fraud Rate by Location Mismatch
 
-![Location Rate](images/fraud_rate_location.png)
+![Location Rate](Assets/Fraud%20Rate%20by%20Location%20Mismatch.png)
 
 ### Insight
 
@@ -194,42 +196,42 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Fraud Rate by Transaction Hour
 
-![Hour Rate](images/fraud_rate_hour.png)
+![Hour Rate](Assets/Fraud%20Rate%20by%20transaction_hour.png)
 
 ### Insight
 
-- Aktivitas fraud paling tinggi terjadi pada pukul **....**
-- Aktivitas fraud paling rendah terjadi pada pukul **....**
+- Aktivitas fraud paling tinggi terjadi pada pukul **00.00**
+- Aktivitas fraud paling rendah terjadi pada pukul **22.00**
 
 ---
 
 ## Fraud vs Normal Transaction Hour
 
-![Hour Comparison](images/hour_comparison.png)
+![Hour Comparison](Assets/Fraud%20vs%20Normal%20Transaction%20Hour.png)
 
 ### Insight
 
-- Pola transaksi fraud berbeda dibanding transaksi normal terutama pada jam **....**
+- Pola transaksi fraud berbeda dibanding transaksi normal tiap jam
 
 ---
 
 ## Fraud Rate by Foreign Transaction & Merchant Category
 
-![Foreign Merchant](images/foreign_merchant.png)
+![Foreign Merchant](Assets/Fraud%20Rate%20by%20Foreign%20Transaction%20dan%20Merchant%20Category.png)
 
 ### Insight
 
-- Kombinasi transaksi luar negeri dan merchant **....** memiliki Fraud Rate tertinggi.
+- Kombinasi transaksi luar negeri dan merchant **Grocery** memiliki Fraud Rate tertinggi.
 
 ---
 
 ## Fraud Rate by Transaction Hour & Foreign Transaction
 
-![Hour Foreign](images/hour_foreign.png)
+![Hour Foreign](Assets/Fraud%20Rate%20by%20Transaction%20Hour%20dan%20Foreign%20Transaction.png)
 
 ### Insight
 
-- Kombinasi transaksi luar negeri pada pukul **....** memiliki Fraud Rate sebesar **....%**
+- Kombinasi transaksi luar negeri pada pukul **02.00** memiliki Fraud Rate sebesar **41%**
 - Kombinasi fitur ini berpotensi menjadi feature engineering yang baik.
 
 ---
@@ -238,11 +240,11 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Correlation Matrix
 
-![Correlation](images/correlation_matrix.png)
+![Correlation](Assets/Matriks%20Korelasi%20Semua%20Antar%20Fitur.png)
 
 ### Insight
 
-- Korelasi tertinggi terdapat antara fitur **....** dan **....**
+- Korelasi tertinggi terdapat antara fitur **foreign_transaction**, **velocity_last_24h** dan **location_mismatch**
 - Tidak ditemukan multikolinearitas yang sangat tinggi antar fitur.
 
 ---
@@ -251,17 +253,17 @@ Dataset terdiri dari beberapa fitur berikut.
 
 ## Top Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Assets/Top%20Feature%20Importance%20Potensial%20Digunakan.png)
 
 ### Insight
 
-Fitur yang memiliki kontribusi terbesar terhadap prediksi fraud adalah:
+Fitur yang memiliki kontribusi terbesar terhadap prediksi fraud menggunakan RF adalah:
 
-1. **....**
-2. **....**
-3. **....**
-4. **....**
-5. **....**
+1. **device_trust_score**
+2. **transaction_hour**
+3. **foreign_transaction**
+4. **velocity_last_24h**
+5. **location_mismatch**
 
 Temuan ini menunjukkan bahwa fitur-fitur tersebut berpotensi menjadi prediktor utama dalam pembangunan model Machine Learning.
 
@@ -271,16 +273,14 @@ Temuan ini menunjukkan bahwa fitur-fitur tersebut berpotensi menjadi prediktor u
 
 Berdasarkan hasil Exploratory Data Analysis diperoleh beberapa temuan penting:
 
-- Dataset memiliki class imbalance dengan fraud sebesar **....%**.
-- Transaksi fraud cenderung memiliki nilai transaksi **....**
-- Device Trust Score pada transaksi fraud cenderung **....**
-- Velocity transaksi fraud lebih **....**
-- Fraud lebih sering terjadi pada transaksi **....**
+- Dataset memiliki class imbalance dengan fraud sebesar **99%**.
+- Device Trust Score pada transaksi fraud cenderung memiliki poin tingkat kepercayaan**rendah**
+- Fraud lebih sering terjadi pada transaksi **luar negeri (foreign)**
 - Location Mismatch meningkatkan peluang terjadinya fraud.
-- Aktivitas fraud meningkat pada jam **....**
+- Aktivitas fraud meningkat pada jam **00 hingga 04 am**
 - Kombinasi **Foreign Transaction** dan **Transaction Hour** menunjukkan Fraud Rate tertinggi.
 - Merchant Category memiliki tingkat risiko fraud yang berbeda-beda.
-- Feature Importance menunjukkan bahwa fitur **....** merupakan fitur paling berpengaruh.
+- Feature Importance menunjukkan bahwa fitur **device_trust_score** merupakan fitur paling berpengaruh.
 
 ---
 

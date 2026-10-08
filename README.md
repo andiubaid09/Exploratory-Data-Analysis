@@ -6,6 +6,9 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 
 ## 📂 Project Structure
 
+- **TMDB Movie Dataset/**  
+  Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan industri perfilman global, seperti tanggal rilis, anggaran (*budget*), pendapatan (*revenue*), profitabilitas, genre, perusahaan produksi, bahasa utama, serta skor popularitas dan rating penonton. Analisis mencakup eksplorasi tren produksi historis, korelasi finansial modal vs pendapatan, identifikasi *outlier* blockbuster, analisis bias popularitas vs kualitas, serta panduan interpretasi visual yang mendalam sebagai landasan untuk pengembangan sistem rekomendasi berbasis teks.
+
 - **Airlines Flight Data/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan penerbangan komersial, seperti maskapai, rute, waktu keberangkatan, jumlah pemberhentian, durasi penerbangan, dan harga tiket. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, serta identifikasi faktor-faktor yang memengaruhi variasi harga tiket.
 
@@ -35,10 +38,11 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 - **NumPy** → Operasi Numerik  
 - **Matplotlib** → Visualisasi dasar  
 - **Seaborn** → Visualisasi yang canggih dan estetis  
-- **Jupyter Notebook** → Analisis interaktif  
+- **Jupyter Notebook** → Analisis interaktif 
+- **Ast** -> Konversi teks/string menjadi struktur data asli (List/Dict)
 
 ---
 
 ## 📌 Notes
 - Setiap kumpulan data/proyek memiliki folder tersendiri dengan README khusus.  
-- Visualisasi dibuat untuk membuat wawasan lebih mudah diinterpretasikan.    
+- Visualisasi dibuat untuk membuat wawasan lebih mudah diinterpretasikan.

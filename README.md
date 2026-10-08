@@ -6,7 +6,7 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 
 ## 📂 Project Structure
 
-- **TMDB Movie Dataset/**  
+- **Movies Metadata/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan industri perfilman global, seperti tanggal rilis, anggaran (*budget*), pendapatan (*revenue*), profitabilitas, genre, perusahaan produksi, bahasa utama, serta skor popularitas dan rating penonton. Analisis mencakup eksplorasi tren produksi historis, korelasi finansial modal vs pendapatan, identifikasi *outlier* blockbuster, analisis bias popularitas vs kualitas, serta panduan interpretasi visual yang mendalam sebagai landasan untuk pengembangan sistem rekomendasi berbasis teks.
 
 - **Airlines Flight Data/**  

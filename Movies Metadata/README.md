@@ -147,6 +147,7 @@ Tahapan selanjutnya yang dapat dilakukan untuk pengembangan sistem rekomendasi b
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Ast
 
 ---
 

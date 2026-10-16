@@ -6,9 +6,6 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 
 ## 📂 Project Structure
 
-- **Movies Metadata/**  
-  Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan industri perfilman global, seperti tanggal rilis, anggaran (*budget*), pendapatan (*revenue*), profitabilitas, genre, perusahaan produksi, bahasa utama, serta skor popularitas dan rating penonton. Analisis mencakup eksplorasi tren produksi historis, korelasi finansial modal vs pendapatan, identifikasi *outlier* blockbuster, analisis bias popularitas vs kualitas, serta panduan interpretasi visual yang mendalam sebagai landasan untuk pengembangan sistem rekomendasi berbasis teks.
-
 - **Airlines Flight Data/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan penerbangan komersial, seperti maskapai, rute, waktu keberangkatan, jumlah pemberhentian, durasi penerbangan, dan harga tiket. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, serta identifikasi faktor-faktor yang memengaruhi variasi harga tiket.
 
@@ -18,6 +15,12 @@ Repositori ini berisi proyek-proyek analisis data eksploratori (EDA) yang bertuj
 - **Credit Card Fraud/**  
   Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan transaksi kartu kredit, seperti jumlah transaksi, waktu transaksi, kategori merchant, transaksi luar negeri, ketidaksesuaian lokasi, skor kepercayaan perangkat (*device_trust_score*), kecepatan transaksi dalam 24 jam (*transaction velocity*), usia pemegang kartu, dan label fraud. Analisis mencakup eksplorasi distribusi data, hubungan antar fitur, analisis fraud rate, serta identifikasi pola-pola transaksi yang berpotensi mengindikasikan aktivitas penipuan sebagai dasar untuk pengembangan model deteksi fraud.
 
+- **Movies Metadata/**  
+  Meliputi deskripsi dataset, prapemrosesan, dan visualisasi fitur-fitur yang berkaitan dengan industri perfilman global, seperti tanggal rilis, anggaran (*budget*), pendapatan (*revenue*), profitabilitas, genre, perusahaan produksi, bahasa utama, serta skor popularitas dan rating penonton. Analisis mencakup eksplorasi tren produksi historis, korelasi finansial modal vs pendapatan, identifikasi *outlier* blockbuster, analisis bias popularitas vs kualitas, serta panduan interpretasi visual yang mendalam sebagai landasan untuk pengembangan sistem rekomendasi berbasis teks.
+
+- **MovieLens Data/**
+  Meliputi pembersihan skala besar, ekstraksi fitur, dan eksplorasi data interaksi rating penonton film (MovieLens dataset). Analisis mencakup perapihan format judul dan penanganan artikel terbalik (seperti "The), ekstraksi tahun rilis, pembersihan anomali genre(penghapusan IMAX dan (no genres listed)), penanganan tag duplikat, identifikasi duplikasi data, serta analisis distribusi rating penonton (positivity bias), keaktifan pengguna(power users vs casual), tren jumlah produksi film tahunan dan korelasi popularitas vs tingkat kepuasan rata-rata penonton.
+  
 - *(More datasets/projects can be added in the future)*
 
 ---
